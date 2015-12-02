@@ -3,9 +3,19 @@ weather-workflow
 
 Weather forecast workflow using Baidu API
 
-![image](https://github.com/wensonsmith/weather-workflow/raw/master/baidu_weather.png)  
+![image](https://github.com/BobSte/weather-workflow/raw/master/baidu_weather.png)  
 
-![image](https://github.com/wensonsmith/weather-workflow/raw/master/baidu_weather-2.png)
+![image](https://github.com/BobSte/weather-workflow/raw/master/baidu_weather-2.png)
+
+### 分支更新说明
+
+* 更新图标显示
+* `tq` 默认为北京，可以自行修改
+* `tq shanghai`或者`tq 上海`来显示上海天气
+* 显示实时气温和PM2.5指数
+
+
+-
 
 ### 使用百度车联网API，速度快
 
