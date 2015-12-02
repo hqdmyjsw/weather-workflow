@@ -3,9 +3,9 @@ weather-workflow
 
 Weather forecast workflow using Baidu API
 
-![baidu_weather.png](baidu_weather.png)  
+![baidu_weather.png](baidu_weather.png =500x)  
 
-![baidu_weather-2.png](baidu_weather-2.png)
+![baidu_weather-2.png](baidu_weather-2.png =500x)
 
 
 ### 分支更新说明
