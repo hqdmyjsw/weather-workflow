@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>Baidu Weather</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict/>
 	<key>createdby</key>
@@ -20,27 +22,32 @@
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>tq</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>正在查询</string>
+				<string>正在查询...</string>
 				<key>script</key>
 				<string>require_once('weather.php');
 
 $weather = new Weather();
+$query = "{query}";
 
-//如果是制定城市查询，去掉这里的注释
-//$query = "{query}";
-
-
-//默认为北京市
-$query = "北京";
+// 默认为北京市
+if (empty($query)) { $query = "北京"; }
 $weather-&gt;getWeather($query);
 
-</string>
+// 图标资源来自 http://www.lanrentuku.com/png/1522.html</string>
 				<key>subtext</key>
 				<string>请输入城市名称</string>
 				<key>title</key>
@@ -48,7 +55,7 @@ $weather-&gt;getWeather($query);
 				<key>type</key>
 				<integer>1</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
