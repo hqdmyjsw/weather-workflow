@@ -7,7 +7,6 @@ Weather forecast workflow using Baidu API
 
 ![baidu_weather-2.png](baidu_weather-2.png)
 
-感谢原作者、百度车联网和图标作者做的贡献！
 
 ### 分支更新说明
 
@@ -17,6 +16,8 @@ Weather forecast workflow using Baidu API
 * 显示实时气温和PM2.5指数
 
 
-### 原项目
+### 贡献
 
-基于[@wensonsmith的Baidu Weather](https://github.com/wensonsmith/weather-workflow)创建，更新了图标显示。
+基于@wensonsmith的[Baidu Weather](https://github.com/wensonsmith/weather-workflow)创建。
+
+感谢原作者、百度车联网和图标作者做的贡献！
