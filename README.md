@@ -3,6 +3,8 @@ weather-workflow
 
 Weather forecast workflow using Baidu API
 
+*重要：新版本请移步：[ChinaWeather-workflow](https://github.com/m2nlight/ChinaWeather-workflow)*
+
 <img src="baidu_weather.png" width="500" />
 
 <img src="baidu_weather-2.png" width="500" />
